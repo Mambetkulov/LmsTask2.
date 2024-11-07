@@ -30,21 +30,7 @@ public class Main {
 
         System.out.println(second.name + "\n" + second.Surname + "\n" +
                 second.age + "\n" + Arrays.toString(second.courses) + "\n" + second.meals);
-        System.out.println("");
-
-        Random r = new Random();
-          int aibek = r.nextInt(1,100);
-          int tyson = r.nextInt(1,100);
-        System.out.println("fight 😼😼😼");
-
-          if(aibek < tyson){
-              System.out.println( "tyson win 😎" +"\n" + "aibek loser 😒");
-          }
-          else{
-              System.out.println("aibek win 😎" +"\n" + "tyson loser 😒");
-          }
-
-
+    
 
     }
 }
